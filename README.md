@@ -158,8 +158,10 @@ kubectl exec -it deploy/postgres -- psql -U postgres -d appdb -c "\dt"
 > If you see the "items" table, the init script ran successfully
 
 ### 2.4 Connect with VS Code SQLTools (optional)
+ 
+* Install both extensions in VS Code:
+  | [SQLTools](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools)
 
-* Install the **SQLTools** extension and **SQLTools PostgreSQL/Cockroach Driver** in VS Code
 * Port-forward the database to your local machine:
 
 ```bash
